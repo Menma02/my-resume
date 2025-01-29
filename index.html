@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Resume</title>
+</head>
+
+<style>
+    body{
+        max-width: 1200px;
+        border: 2px gray solid;
+        padding: 10px;
+        margin: auto;
+    }
+    *{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .image-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    h1{
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    h4,p{
+        padding-left: 20px;
+        line-height: 0.2;
+    }
+    .school-name{
+        font-weight:bold;
+    }
+    .contact-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .summary-container,
+    .education-container,
+    .acad-container,
+    .skills-container,
+    .award-container{
+        padding-inline: 20px;
+    }
+    .education{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px; 
+    }
+    .education-year{
+        list-style: none;
+        font-weight: 600;
+        text-align: right;
+    }
+    .education-year li {
+        margin-bottom: 30px;
+    }
+    .acads{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;   
+    }
+    .acad-name{
+        font-weight: bold;
+    }
+    .acad-year{
+        list-style: none;
+        font-weight: 600;
+        text-align: right;
+    }
+    .acad-year li {
+        margin-bottom: 80px;
+    }
+    
+    .award-title {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .award-content {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+    }
+    .award-text{
+        font-weight: bold;
+    }
+    .award-year{
+        font-weight: 600;
+        list-style: none;
+        text-align: right;
+    }
+    .footer{
+        padding-top: 10px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+
+    <div class="image-container">
+        <img src="./Images/MARKJUNE.png" alt="Mark June Picture" width="110">
+        <h1>Mark June Santiago</h1>
+    </div>
+
+    <div class="contact-container">
+        <ul>
+            <li>Banga 1st, Plaridel, Bulacan 3004</li>
+            <li>(+63) 960-600-2291</li>
+        </ul>
+        <ul>
+            <li><a href="mailto:markjune.d.santiago@gmail.com">markjune.d.santiago@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/mark-june-santiago-995b6832a/">linkedin | markjune</a></li>
+        </ul>
+    </div>
+
+    <div class="summary-container">
+        <h3>Overview</h3>
+        <p1>As an inspiring frontend developer and UI/UX designer, I am a creative individual with a background in UI/UX design 
+            and proficiency in using Figma to develop engaging prototypes. I am eager to grow as a designer and developer, having 
+            completed various commissions to enhance my technical skills. I look forward to applying my design and development 
+            experience in a new role while continuing to learn and evolve in the field.
+        </p1>
+    </div>
+    
+
+    <hr>
+
+    <div class="education-container">
+        <h3>Education</h3>
+        <div class="education">
+            <ul>
+                <li><span class="school-name">Bulacan State University</span>
+                    <p>Bachelor of Science in Information Technology</p>
+                    <p>Website and Mobile Application Development</p>
+                </li>
+                <li><span class="school-name">Academia De Pulilan</span>
+                    <p>Senior Highschool: Student Model for School Brochure</p>
+                    <p>Science, Technology, Engineering, and Mathematics</p>
+                </li>
+            </ul>
+            <ul class="education-year">
+                <li>Malolos, Philippines <br>
+                    <span>2021 - Present</span>
+                </li>
+                <li>Pulilan, Philippines <br>
+                    <span>2019-2021</span>
+                </li>
+            </ul>
+        </div>
+    </div>      
+
+    <hr>
+
+    <div class="acad-container">
+        <h3>Academic Experience</h3>
+        <div class="acads">
+            <ul>
+                <li><span class="acad-name">IT Services (Freelance)</span>
+                    <ul>
+                        <li>I began freelancing to gain practical experience while financing my studies.</li>
+                        <li>Engaged in activities utilizing video editing, designing, and image editing.</li>
+                        <li>Developed programming portfolios to showcase technical skills and completed projects.</li>
+                        <li>Improved my communication skills by interacting effectively with clients and understanding their needs.</li>
+                    </ul>
+                </li>
+                <li><span class="acad-name">UI/UX Designer – VetConnect <br>
+                    BULSU - 13th ICT Congress Website UI Designing Contest</span>
+                    <ul>
+                        <li>Automated Record Keeping: VetConnect is an innovative application designed to automate the <br>
+                            management of pet records, revolutionizing how pet owners track their animals' health.</li>
+                        <li>Crafted in Figma, the application boasts an intuitive and visually appealing design, ensuring users <br>
+                            can easily navigate through various functionalities without a steep learning curve</li>
+                        <li>Working on VetConnect has significantly contributed to my growth as a UI/UX designer.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="acad-year">
+                <li>2023 - 2025</li>
+                <li>April 2024</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="skills-container">
+        <h3>Skills & Interest</h3>
+        <h4>Programming:</h4>
+        <p>HTML, CSS, JavaScript, PHP</p>
+        <h4>Design:</h4>
+        <p>Figma, Canva</p>
+        <h4>Technical Skills:</h4>
+            <ul>
+                <li>Microsoft Office Suite (Excel, Word, PowerPoint)</li>
+                <li>Media Editing Software (Adobe Photoshop, Adobe Illustrator, CapCut)</li>
+            </ul>
+        <h4>Soft Skills:</h4>
+        <p>Problem Solving, Flexibility, Time Management, Open Communication</p>
+        <h4>Languages:</h4>
+        <p>Filipino, English</p>
+        <h4>Interests:</h4>
+        <p>Playing Online Games, Watching Anime</p>
+    </div>
+
+    <hr>
+    
+    <div class="award-container">
+        <h3 class="award-title">Awards and Certifications</h3>
+        <div class="award-content">
+            <ul class="award-text">
+                <li>Bulacan State University | Deans Lister</li>
+                <li>KID Iskolar ni Del Pilar</li>
+                <li>CISCO Network Support and Security</li>
+                <li>CISCO Introduction to Cybersecurity </li>
+                <li>DICT Principles of Web Development and Introduction to HTML</li>
+                <li>HSK Level 1 Chinese Proficiency Test</li>
+            </ul>
+            <ul class="award-year">
+                <li>2022 - 2023</li>
+                <li>2021 - 2025</li>
+                <li>May 2024</li>
+                <li>May 2024</li>
+                <li>April 2024</li>
+                <li>May 2024</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4>©Mark June. All rights reserved.</h4>
+    </div>
+
+
+</body>
+</html>
